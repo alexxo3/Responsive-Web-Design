@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Learning Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        h1 { border-bottom: 3px solid #003366; padding-bottom: 10px; color: #003366; }
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 { margin-top: 0; color: #334155; font-size: 1.25rem; }
+        audio, video { width: 100%; margin-top: 10px; border-radius: 4px; }
+        .transcript-text {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-left: 4px solid #003366;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Multimedia Learning Hub</h1>
+
+    <section>
+        <h2>Featured Audio: Sailing Away</h2>
+        <audio controls aria-label="A relaxing acoustic music track titled Sailing Away">
+            <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Understanding the .map() Method</h2>
+        <video controls width="600" aria-label="Educational video explaining JavaScript map method concepts">
+            <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+            <track
+                src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt"
+                kind="subtitles"
+                srclang="en"
+                label="English Subtitles">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <section>
+        <h2>Video Transcript</h2>
+        <p class="transcript-text">
+            "The map method in JavaScript is a powerful tool that allows you to create a new array
+            by calling a function on every element in an existing array. This is essential for
+            functional programming and keeping your data immutable..."
+        </p>
+    </section>
+
+</body>
+</html>
