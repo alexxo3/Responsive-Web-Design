@@ -1,0 +1,61 @@
+/* General Styling for Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.todo-list {
+    list-style: none;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.todo-list li {
+    margin-bottom: 20px;
+}
+
+/* Requirement 14: No text decorations */
+.sub-item-link {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 4px;
+    transition: all 0.2s ease;
+}
+
+/* Requirement 15: Unvisited Link Color */
+.sub-item-link:link {
+    color: #2ecc71; /* Emerald Green */
+}
+
+/* Requirement 19: Visited Link Color */
+.sub-item-link:visited {
+    color: #9b59b6; /* Amethyst Purple */
+}
+
+/* Requirement 16: Hover Color */
+.sub-item-link:hover {
+    color: #e67e22; /* Carrot Orange */
+}
+
+/* Requirement 18: Focus Outline */
+.sub-item-link:focus {
+    outline: 2px dashed #3498db; /* Blue dashed outline */
+    outline-offset: 4px;
+}
+
+/* Requirement 17: Active (Clicked) Color */
+.sub-item-link:active {
+    color: #e74c3c; /* Alizarin Red */
+}
+
+/* Sub-item list styling */
+.sub-item {
+    list-style-type: '→ ';
+    margin-left: 25px;
+    margin-top: 5px;
+}
