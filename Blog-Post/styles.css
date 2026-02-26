@@ -1,0 +1,62 @@
+/* Requirement 10: Body background color */
+body {
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Requirements 8, 9, 11, 12: Card styling */
+.blog-post-card {
+  background-color: white;
+  border-radius: 12px;
+  width: 350px;
+  text-align: left;
+  overflow: hidden; /* Ensures image corners match card radius */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Requirements 21, 22: Image styling */
+.post-img {
+  width: 100%;
+  border-bottom: 4px solid #007bff;
+  display: block;
+}
+
+/* Requirement 13: Content padding */
+.post-content {
+  padding: 20px;
+}
+
+/* Requirement 23: Title and Excerpt colors and margins */
+.post-title {
+  color: #212529;
+  margin: 10px 0;
+}
+
+.post-excerpt {
+  color: #6c757d;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+/* Requirements 15-20: Read More button styling */
+.read-more {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Requirement 14: Hover effect */
+.read-more:hover {
+  background-color: #0056b3;
+}
